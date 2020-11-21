@@ -2,4 +2,9 @@
           xmlns:mvc="sap.ui.core.mvc"
           controllerName="sap.ui.demo.walkthrough.controllers.App">
   <Button text="Press Me!" press=".onPress"/>
+
+  <Input  value="{/recipient/name}"
+          description="Hello {/recipient/name}"
+          valueLiveUpdate="true"
+          width="60%"/>
 </mvc:View>
